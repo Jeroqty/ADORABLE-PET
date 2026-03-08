@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><title>Adopt Now</title></head>
+<body>
+    <h1>Adopt Now</h1>
+    <p>ChOOSE HER WE CANT HANDLE HER.</p>
+
+    <img src="https://scontent.fcrk2-4.fna.fbcdn.net/v/t1.15752-9/643915116_917865097812757_7506938202407441130_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEjfIVwMZ2Oz9tjZadAOS0Sd0o1-NP4ML93SjX40_gwv8X4VcpiINjyczbFVVqEm7ZJSwgpmX3gPhFFWeHEk-19&_nc_ohc=illO5L743RcQ7kNvwHGNf5m&_nc_oc=Adm999HNqgxadMimNRUcFsEwyPtH2bnBwjjGxDLE_v1z0fdUsuqd-IRDa2GnS2S7bCY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fcrk2-4.fna&_nc_ss=8&oh=03_Q7cD4wHt7Sd-Gr39PuVG1YAd5IEdfssY2k0deV0WEvXrsuQaFg&oe=69D4B335" alt="Description of the image">
+
+    <!-- <a href="{{ route('shelter') }}">Back to Shelter</a> | -->
+    <a href="{{ route('confirmation') }}">ADOPT NOW!</a>
+    <a href="{{ route('confirmation') }}">ADD TO CART🛒</a>
+<h1>Cute adorable pag may pagkain pag wala nanlalapa</h1>
+<style>
+    /* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: #ecf0f1;
+    color: #2c3e50;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.8rem;
+    color: #e67e22; /* warm orange for adoption theme */
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Buttons (links styled as buttons) */
+a {
+    display: inline-block;
+    background: #1abc9c;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+a:hover {
+    background: #16a085;
+    transform: scale(1.05);
+}
+</style>
+</body>
+</html>
